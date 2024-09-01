@@ -1,0 +1,33 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:AvaloniaQueenFrontend.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaQueenFrontend.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="AvaloniaQueenFrontend">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <!-- <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/> -->
+    <StackPanel>
+        <Border Margin="5" CornerRadius="10" Background="LightBlue">
+            <TextBlock Margin="5" FontSize="24" HorizontalAlignment="Center" Text="Temperature Converter">
+            </TextBlock>
+        </Border>
+        <Grid ShowGridLines="False" Margin="5" ColumnDefinitions="120, 120" RowDefinitions="Auto, Auto, Auto">
+            <Label Grid.Row="0" Grid.Column="0" Margin="10">Celsius</Label>
+            <TextBox Grid.Row="0" Grid.Column="1" Margin="0 5" Text="0" TextChanged="Celsius_OnTextChanged" Name="Celsius"></TextBox>
+            <Label Grid.Row="1" Grid.Column="0" Margin="10">Fahrenheit</Label>
+            <TextBox Grid.Row="1" Grid.Column="1" Margin="0 5" Text="32" IsReadOnly="True" Name="Fahrenheit"></TextBox>
+            <Button Grid.Row="2" Grid.Column="1" Margin="0 5" Click="ButtonClicked">Calculate</Button>
+        </Grid>
+    </StackPanel>
+
+</Window>

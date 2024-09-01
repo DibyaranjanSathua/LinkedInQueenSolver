@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedInQueenSolverBackend", "LinkedInQueenSolverBackend\LinkedInQueenSolverBackend.csproj", "{70E13A55-42EF-4C3A-8A7B-8C37BEB27211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorGridDetection", "ColorGridDetection\ColorGridDetection.csproj", "{048DEE29-231A-4692-AD6F-C1074B1B6279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaQueenFrontend", "AvaloniaQueenFrontend\AvaloniaQueenFrontend.csproj", "{5508CCBA-8E12-464B-88E7-90037C4522A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70E13A55-42EF-4C3A-8A7B-8C37BEB27211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E13A55-42EF-4C3A-8A7B-8C37BEB27211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E13A55-42EF-4C3A-8A7B-8C37BEB27211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E13A55-42EF-4C3A-8A7B-8C37BEB27211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048DEE29-231A-4692-AD6F-C1074B1B6279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048DEE29-231A-4692-AD6F-C1074B1B6279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048DEE29-231A-4692-AD6F-C1074B1B6279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048DEE29-231A-4692-AD6F-C1074B1B6279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5508CCBA-8E12-464B-88E7-90037C4522A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5508CCBA-8E12-464B-88E7-90037C4522A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5508CCBA-8E12-464B-88E7-90037C4522A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5508CCBA-8E12-464B-88E7-90037C4522A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

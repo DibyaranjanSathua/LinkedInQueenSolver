@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ELe4zEmHzvzDO+N779Yd0VoluvXjwJUspaT945iVrH2Tzk/dVezSNWcSZnHgGfHVqNsL/lf3gUZKqc+Tc0NY1w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sathua\\RiderProjects\\LinkedInQueenSolver\\LinkedInQueenSolver\\LinkedInQueenSolverBackend\\LinkedInQueenSolverBackend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sathua\\.nuget\\packages\\microsoft.z3\\4.12.2\\microsoft.z3.4.12.2.nupkg.sha512"
+  ],
+  "logs": []
+}
